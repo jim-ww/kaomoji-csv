@@ -30,5 +30,5 @@ the field boundary unambiguous.
 ## Usage
 
 ```sh
-rofi -dmenu -i -p kaomoji < kaomoji.csv | awk '{print $1}' | sed 's/\xc2\xa0/ /g' | xargs -0 wtype --
+rofi -dmenu -i -p kaomoji < kaomoji | awk '{print $1}' | sed 's/\xc2\xa0/ /g' | xargs -0 wtype --
 ```
