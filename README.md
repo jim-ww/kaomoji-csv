@@ -1,4 +1,4 @@
-# kaomoji.csv
+# kaomoji
 
 96,225 kaomoji, tagged in English and Japanese/romaji, for use with rofi
 or any picker reading a flat `character<space>tags` file.
